@@ -1,0 +1,12 @@
+		$repeater->add_control(
+			'tab_content',
+			[
+				'label' => __( 'Content', 'elementor' ),
+				'type' => Controls_Manager::WYSIWYG,
+				'default' => __( 'Accordion Content', 'elementor' ),
+				'dynamic' => [
+					'active' => true,
+				],
+				'label_block' => true,
+			]
+		);
